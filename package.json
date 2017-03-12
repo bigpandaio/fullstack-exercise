@@ -1,0 +1,29 @@
+{
+  "name": "fullstack-exercise",
+  "version": "1.0.0",
+  "description": "Fullstack Exercise",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigpandaio/fullstack-exercise.git"
+  },
+  "scripts": {
+    "start": "npm run backend",
+    "backend": "node ./server/index.js",
+    "backend:watch": "nodemon ./server/index.js"
+  },
+  "author": "Shahar Kedar",
+  "homepage": "https://github.com/bigpandaio/fullstack-exercise#readme",
+  "dependencies": {
+    "angular": "1.6.2",
+    "angular-gravatar": "0.4.2",
+    "bluebird": "3.5.0",
+    "body-parser": "1.16.1",
+    "express": "4.14.1",
+    "lodash": "4.17.4",
+    "lorem-ipsum": "1.0.3",
+    "mongoose": "4.8.5",
+    "morgan": "1.8.1",
+    "nodemon": "1.11.0"
+  }
+}
