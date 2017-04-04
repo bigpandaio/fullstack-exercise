@@ -21,7 +21,7 @@ We expect the solution to include:
 1. Extension of the API to support sending the rating to the server side.
 1. Extension of the server side to support persisting the rating on MongoDB.
 1. An understandable README.md is required, with running instructions.
-1. **Bonus:** change the implementation to support real time updates of ratings. This means that if you have two browser tabs of the application open, then any changes in one tab should be reflected in the other tab.
+1. **Bonus:** Change the implementation to support real time updates of ratings. This means that if you have two browser windows of the application open, then any changes in one browser should be reflected in the other.
 
 ## Final Notes
 
